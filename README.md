@@ -4,7 +4,7 @@ Automatically synced LeetCode solutions.
 
 ## How it works
 
-When an accepted LeetCode submission is available, the GitHub Actions workflow syncs it into this repository using LeetCode Sync.
+A GitHub Actions workflow authenticates to LeetCode with repository secrets, finds solved problems, retrieves the latest accepted submission, and stores the source code in this repository. The workflow uses a small Python GraphQL client instead of the older `joshcai/leetcode-sync` action because that action currently fails with `submissionList.submissions is not iterable` for many accounts. citeturn5search0
 
 ### Automatic sync
 
@@ -14,10 +14,16 @@ The workflow runs every 30 minutes and can also be started manually from **Actio
 
 ```text
 leetcode_problems/
-├── <problem-slug>/
-│   └── solution.<language-extension>
+├── problems/
+│   └── 0001-two-sum/
+│       ├── solution.py
+│       └── README.md
+├── scripts/
+│   └── sync_leetcode.py
 └── README.md
 ```
+
+Each problem README contains the LeetCode number, difficulty, language, and submission ID. Problem statements are not copied into the repository.
 
 ## Setup required
 
