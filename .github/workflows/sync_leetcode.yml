@@ -3,8 +3,8 @@ name: Sync LeetCode
 on:
   workflow_dispatch:
   schedule:
-    # Check every 30 minutes. GitHub may delay scheduled workflows slightly.
-    - cron: "*/30 * * * *"
+    # Check every 5 minutes. GitHub may delay scheduled workflows slightly.
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
