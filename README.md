@@ -4,7 +4,7 @@ Automatically synced LeetCode solutions.
 
 ## How it works
 
-A GitHub Actions workflow authenticates to LeetCode with repository secrets, finds solved problems, retrieves the latest accepted submission, and stores the source code in this repository. The workflow uses a small Python GraphQL client instead of the older `joshcai/leetcode-sync` action because that action currently fails with `submissionList.submissions is not iterable` for many accounts. citeturn5search0
+A GitHub Actions workflow authenticates to LeetCode with repository secrets, finds solved problems, retrieves the latest accepted submission, and stores the source code in this repository. It uses a small Python GraphQL client instead of the older `joshcai/leetcode-sync` action, which is currently affected by a `submissionList.submissions is not iterable` failure for many accounts.
 
 ### Automatic sync
 
