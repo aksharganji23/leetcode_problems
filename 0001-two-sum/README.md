@@ -10,4 +10,5 @@
 
 | Language | File |
 | --- | --- |
+| C | [solution.c](solution.c) |
 | Python | [solution.py](solution.py) |
