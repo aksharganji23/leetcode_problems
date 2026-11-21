@@ -11,3 +11,4 @@
 | Language | File |
 | --- | --- |
 | Java | [solution.java](solution.java) |
+| Python | [solution.py](solution.py) |
