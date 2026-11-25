@@ -7,13 +7,13 @@ My LeetCode solutions, automatically synced to GitHub. 🚀
 <!-- SOLUTIONS_START -->
 
 <p align="center">
-<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="108 solved: 81 Easy, 22 Medium, 5 Hard" width="33.333%"></a><a href="https://github.com/aksharganji23/leetcode_problems"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/akshar_ganji/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
+<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="109 solved: 82 Easy, 22 Medium, 5 Hard" width="33.333%"></a><a href="https://github.com/aksharganji23/leetcode_problems"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/aksharganji/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
 </p>
 
 <!-- LEETBRIDGE_ARCHIVE_CELLS_V3 -->
 <a name="solution-archive"></a>
 <p align="center"><picture>
-<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 108 accepted problems synced by LeetBridge" width="100%">
+<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 109 accepted problems synced by LeetBridge" width="100%">
 </picture></p>
 <table align="center" width="100%">
 <tbody>
@@ -125,6 +125,7 @@ My LeetCode solutions, automatically synced to GitHub. 🚀
 <tr><td width="53%"><a href="https://leetcode.com/problems/smallest-stable-index-ii/"><img src=".leetbridge/archive/problems/3904-smallest-stable-index-ii.svg?v=3" alt="3904 · Smallest Stable Index II" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="3904-smallest-stable-index-ii/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/valid-digit-number/"><img src=".leetbridge/archive/problems/3908-valid-digit-number.svg?v=3" alt="3908 · Valid Digit Number" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="3908-valid-digit-number/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/check-adjacent-digit-differences/"><img src=".leetbridge/archive/problems/3931-check-adjacent-digit-differences.svg?v=3" alt="3931 · Check Adjacent Digit Differences" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="3931-check-adjacent-digit-differences/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
+<tr><td width="53%"><a href="https://leetcode.com/problems/limit-occurrences-in-sorted-array/"><img src=".leetbridge/archive/problems/3940-limit-occurrences-in-sorted-array.svg?v=3" alt="3940 · Limit Occurrences in Sorted Array" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="3940-limit-occurrences-in-sorted-array/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 </tbody>
 </table>
 
